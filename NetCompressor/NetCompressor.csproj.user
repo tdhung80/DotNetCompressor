@@ -16,4 +16,7 @@
     <FallbackCulture>en-US</FallbackCulture>
     <VerifyUploadedFiles>false</VerifyUploadedFiles>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>R:\Build\SQLClient\SQLClient.exe R:\Build\SQLClient\SQLClient1.exe</StartArguments>
+  </PropertyGroup>
 </Project>

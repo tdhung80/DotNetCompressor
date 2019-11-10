@@ -102,6 +102,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AppMethod - Copy.txt" />
     <Content Include="AppMethod.txt" />
     <Content Include="AppMethodEnd.txt" />
     <Content Include="Assembly.txt" />

@@ -1,9 +1,8 @@
 ﻿var rm = new ResourceManager("resource", Assembly.GetExecutingAssembly());
-var s  = rm.GetString("%appname%");
-var appBytes = System.Text.Encoding.UTF8.GetBytes(s);
+var appBytes = (byte[])rm.GetObject("%appname%");
 
 //Loading App
-int appSize = appBytes.Length;
+int appSize = %appsize%;
 var memStr = new MemoryStream(appBytes);
 var gStream = new %mode%;
 

@@ -7,9 +7,6 @@ GC.Collect();
 
 try {
 	assemb.EntryPoint.Invoke(null, new object[] { args });
-
-} catch(Exception ex)
-{
-	
+} catch(Exception ex) {	
 	assemb.EntryPoint.Invoke(null, new object[] {});
 }
